@@ -13,7 +13,7 @@ git&gitHub 순서
     현재 스테이징된 파일의 기록명을 작성 (키워드위주로 작성)
     ex) 쇼핑몰 상품 페이지를 만들었다면?
     git commit -m 'shp man-product-end' 
-    git commit -m '쇼핑몰 남자복 완성' 
+    git commit -m '쇼핑몰 남자복 완성
  3. git push origin main 
     origin== git Hub 주소
     main == Local 내컴퓨터 위치
@@ -24,3 +24,7 @@ git&gitHub 순서
     Local과 Staging상태에서 작업물의 등록 상태 체크
 2.git log 
     commit과 Push 상태에서 작업물의 commit 기록과 업로드 정보체크
+---------------------------------------------------------------------
+# h1~h6(block)
+* 제목 태그는 검색 키워드역활을 하며 페이지 내에서 대/중/소 제목 역활을 한다.
+* h1이 가장 중요한 제목이며 h1, h2 , h3 ,위주로 많이 사용한다.
