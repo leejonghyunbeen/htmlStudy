@@ -44,5 +44,6 @@ git&gitHub 순서
 # q 짧은 인용문 (inline)
 # code 화면에 코드 표시 (inline)
 # address 연락처 및 주소 정보 (block)
+* address 자식,자손으로는 inline요소만 배치 할 수 있다
 # hr 수평선 (block)
 ----------------
