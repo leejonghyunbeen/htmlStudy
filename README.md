@@ -37,3 +37,12 @@ git&gitHub 순서
 # em ,strong Tag(inlin) 
 * 강조의 의미를 가진 em, strong 은 볼록 내에서 강조 처리를 할 때 사용한다
 * 제목태그(h)안에는 em, strong을 사용하지 않는다
+-----------------------------------------------------------------------------------
+# sub, sup 아래첨자, 위첨자
+# del 교체, 삭제 텍스트 (inline)
+# blockquote 긴인용문(block)
+# q 짧은 인용문 (inline)
+# code 화면에 코드 표시 (inline)
+# address 연락처 및 주소 정보 (block)
+# hr 수평선 (block)
+----------------
