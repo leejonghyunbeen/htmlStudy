@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content=""> 
+    <title>목록 태그 -1</title>
+</head>
+<body>
+    <h1>순서가 있는 목록</h1>
+    <!-- oi, ul ,li 는 모두 블록 태그이다 -->
+    <ol><!-- ol의 자식으로는 li태그만 올 수 있다. (단순 글자 및 이미지 모두 불가) -->
+        <li>1위 000웹툰</li> <!-- li태그 자식은 블록,인라인 모두 삽입이 가능하다 -->
+        <li>2위 000웹툰</li>
+        <li>3위 000웹툰</li>
+        <li>4위 000웹툰</li>
+        <li>5위 000웹툰</li>
+    </ol>
+    <h1>순서가 없는 목록</h1>
+    <ul>
+        <li>장바구니 목록 : 딸기</li>
+        <li>장바구니 목록 : 바나나</li>
+        <li>장바구니 목록 : 수박</li>
+    </ul>
+    <!-- ol, ul 중 웹사이트 레이아웃으로 ul을 더 많이 사용 한다 ->why : ul은 비순서목록(순서가 없다)으로 한방향 2개 이상의 배치 레이아웃에 활용되기 때문이다? -->
+    <hr>
+    <h1>입안을 가득채우는 부드러운 마스카포네크림, 딸기마스카포네크림빵</h1>
+    <p>빵 사이에 마스카포네 치즈크림이 한가득한<br>입 베어물면 느껴지는 부드러움이 <br>입을 즐겁게 만들어줘요!</p>
+    <ul>
+        <li><img src="#" alt="">5인분</li>
+        <li><img src="#" alt="">2시간 이상</li>
+        <li><img src="#" alt="">초급 </li>
+    </ul>
+    <div class="recipe_top">
+        <h1>재료<span>ingredients</span></h1>
+        <a href="#">계량법 안내</a>
+    </div>
+    <div class="recipe_ingredients_contents">
+        <section class="ingredients1">
+            <h3>[재료]</h3>
+            <ul>
+                <li>
+                    <a href="#">밀가루 강력분 <img src="#" alt="더보기" ></a>
+                    <span class="right">270g <a href="#">구매</a></span>
+                </li>
+                <li>
+                    <a href="#">설탕 <img src="#" alt="더보기" ></a>
+                    <span class="right">30g <a href="#">구매</a></span>
+                </li>
+                <li>
+                    <a href="#">드라이이스트 <img src="#" alt="더보기" ></a>
+                    <span class="right">4g <a href="#">구매</a></span>
+                </li>
+            </ul>
+        </section>        
+        <section class="ingredients2">
+            <h3>[마스카포네크림]</h3>
+            <ul>
+                <li>
+                    <a href="#">마스카포네치즈 <img src="#" alt="더보기" ></a>
+                    <span class="right">4g <a href="#">구매</a></span>
+                </li>
+                <li>
+                    <a href="#">생크림 <img src="#" alt="더보기" ></a>
+                    <span class="right">350g <a href="#">구매</a></span>
+                </li>
+                <li>
+                    <a href="#">설탕 <img src="#" alt="더보기" ></a>
+                    <span class="right">60g <a href="#">구매</a></span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <hr>
+    <div class="making_steps">
+        <h1>조리순서 <span>steps</span></h1>
+        <div class="step_view">
+            <a href="#"><img src="#" alt="크게보기"></a>
+            <a href="#"><img src="#" alt="목록으로"></a>
+            <a href="#"><img src="#" alt="목록이랑 사진으로"></a>
+        </div>        
+    </div>        
+    <ol class="step_contents">
+        <li>
+            <div class="step_text">
+                <p>반죽기에 우유,생크림,달걀,이스트,설탕,소금,밀가루를 넣고 저속으로 돌려요</p>
+                <div class="step_desc">
+                    <a href="#">반죽기</a>
+                    <p>우유와 생크림은 따뜻하게 데워요</p>
+                    <a href="#">쿠진아트 홈베이킹 5.2L 마스터 반죽기 sm-50kr</a>
+                </div>
+            </div>
+            <div class="step_img"><img src="#" alt="반죽기"></div>
+        </li>
+        <li>
+            <div class="step_text">
+                <p>날가루가 안보이면 중속으로 돌리고, 한 덩이가 되면 버터를 넣고 매끈매끈해 질 때 까지 돌려요</p>
+                <div class="step_desc">
+                    <p>반죽기가 없으면 손으로 반죽해도 좋아요</p>
+                </div>
+            </div>
+            <div class="step_img"><img src="#" alt="반죽기 돌리는거"></div>
+        </li>
+    </ol>
+
+</body>
+</html>
