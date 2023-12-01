@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Document</title>
+</head>
+<body>
+        <h1>프런트엔드 개발자 지원서</h1>
+        <p>HTML, CSS ,Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다</p>
+        <form method="post" id="developerFrm">
+            <fieldset>
+                <legend>프런트앤드 개발자 지원서</legend>
+                <dl>
+                    <dt>개인정보</dt>
+                    <dd>
+                        <label>
+                            이름
+                            <input type="text" placeholder="공백없이 입력하세요" name="userName" class="userName">
+                        </label>
+                        <label>
+                            연락처
+                            <input type="tel" name="userTel" class="userTel">
+                        </label>
+                    </dd>
+                    <dt>지원분야</dt>
+                    <dd>
+                        <label><input type="radio" name="field" value="webpublishing">웹퍼블링싱</label>
+                        <label><input type="radio" name="field" value="wenApp">웹애플리케이션개발</label>
+                        <label><input type="radio" name="field" value="webDeveloper">개발환경개선</label>
+                    </dd>
+                    <dt>지원동기</dt>
+                    <dd>
+                        <textarea cols="60" rows="5" placeholder="본사지원동기를 간략히 써주세요"></textarea>
+                    </dd>
+                </dl>
+                <div class="btn">
+                    <button type="submit" id="summitBtn"></button>
+                    <button type="reset" id="resetBtn"></button>
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
